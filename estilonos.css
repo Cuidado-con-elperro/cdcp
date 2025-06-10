@@ -1,0 +1,132 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff0f6;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+#encabezado h1 {
+    text-align: center;
+    color: #d63384;
+    background-color: #f8d7e8;
+    padding: 20px;
+    border-bottom: 5px solid #f78fb3;
+    font-size: 36px;
+    border-radius: 0 0 20px 20px;
+    margin-top: 0;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffe0f0;
+    border-bottom: 3px solid #f78fb3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: #d63384;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul.navbar li a:hover {
+    background-color: #f78fb3;
+    color: #fff;
+}
+
+#pagina {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+#columna_principal {
+    flex: 2;
+    min-width: 300px;
+}
+
+#columna_principal h2,
+#columna_principal h3 {
+    color: #d63384;
+}
+
+#columna_principal p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    background-color: #ffeaf4;
+    padding: 10px;
+    border-left: 5px solid #f78fb3;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#columna_principal video {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #f78fb3;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#columna_de_publicidad {
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffeaf4;
+    padding: 15px;
+    border-radius: 15px;
+    border: 3px solid #f78fb3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#columna_de_publicidad h4 {
+    color: #d63384;
+}
+
+#columna_de_publicidad p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#columna_de_publicidad img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #f78fb3;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#pie {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #ffe0f0;
+    color: #d63384;
+    border-top: 3px solid #f78fb3;
+    font-size: 14px;
+}
