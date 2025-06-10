@@ -54,14 +54,6 @@ h2, h3 {
     font-size: 28px;
 }
 
-div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
 .ficha {
     background-color: #ffeaf4;
     border: 2px solid #f8a5c2;
@@ -69,6 +61,10 @@ div {
     text-align: center;
     padding: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    vertical-align: top;
 }
 
 .ficha img {
@@ -98,3 +94,4 @@ div:last-of-type {
     margin-top: 50px;
     border-top: 3px solid #f78fb3;
 }
+
